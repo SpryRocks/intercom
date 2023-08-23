@@ -6,6 +6,11 @@ export declare class IntercomWeb extends WebPlugin implements IntercomPlugin {
         userId?: string;
         email?: string;
     }): Promise<void>;
+    loadWithKeys(options: {
+        appId?: string;
+        apiKeyIOS?: string;
+        apiKeyAndroid?: string;
+    }): Promise<void>;
     registerUnidentifiedUser(): Promise<void>;
     updateUser(options: IntercomUserUpdateOptions): Promise<void>;
     logout(): Promise<void>;

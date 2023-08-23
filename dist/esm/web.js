@@ -10,6 +10,10 @@ export class IntercomWeb extends WebPlugin {
         options;
         throw this.unimplemented('Not implemented on web.');
     }
+    async loadWithKeys(options) {
+        options;
+        throw this.unimplemented('Not implemented on web.');
+    }
     async registerUnidentifiedUser() {
         throw this.unimplemented('Not implemented on web.');
     }

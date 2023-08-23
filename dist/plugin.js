@@ -15,6 +15,9 @@ var capacitorIntercom = (function (exports, core) {
         async registerIdentifiedUser(options) {
             throw this.unimplemented('Not implemented on web.');
         }
+        async loadWithKeys(options) {
+            throw this.unimplemented('Not implemented on web.');
+        }
         async registerUnidentifiedUser() {
             throw this.unimplemented('Not implemented on web.');
         }

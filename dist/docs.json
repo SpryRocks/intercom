@@ -6,6 +6,22 @@
     "tags": [],
     "methods": [
       {
+        "name": "loadWithKeys",
+        "signature": "(options: { appId?: string; apiKeyIOS?: string; apiKeyAndroid?: string; }) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ appId?: string | undefined; apiKeyIOS?: string | undefined; apiKeyAndroid?: string | undefined; }"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "loadwithkeys"
+      },
+      {
         "name": "registerIdentifiedUser",
         "signature": "(options: { userId?: string; email?: string; }) => any",
         "parameters": [
@@ -310,7 +326,7 @@
           "tags": [],
           "docs": "",
           "complexTypes": [],
-          "type": "{ [key: string]: any; }"
+          "type": "{ [key: string]: any; } | undefined"
         }
       ]
     },
